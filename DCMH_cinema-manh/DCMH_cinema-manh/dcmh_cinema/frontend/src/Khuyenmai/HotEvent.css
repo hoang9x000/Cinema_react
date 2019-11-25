@@ -1,0 +1,14 @@
+.hot-event {
+    height: auto;
+    margin: 0 15% 0 15%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+
+.hot-event h1 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-left: 20px;
+}

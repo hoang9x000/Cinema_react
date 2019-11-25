@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+.logo{
+  display: block;
+  height: 80px;
+  margin: 0 auto;
+  border-bottom: 1px solid #70a1ff;
+  text-align: center;
+  line-height: 80px;
+}
+.App{
+  height: 100px;
+  background: #70a1ff;
+}
+.top-top{
+  background: #b8e994;
+  height: 24px;
+}
+.select-app{
+  background: #70a1ff;
+  margin-top: 20px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 1px 20px;
+  transition: .2s;
+  font-size: 20px;
+  color: #fff;
+}
+.top-right{
+  float: right;
+  margin-right: 4%;
+}
+.menu-top{
+  padding: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.name{
+  font-size: 50px;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Pacifico', cursive;
+  text-shadow: -1px 0 #b8e994, 0 1px #b8e994;
+  
+}
+.menu{
+  justify-content: center;
+  margin: 1% auto;
+  text-align: center;
+  display: block;
+  height: 40px;
+  line-height: 30px;
+  border-bottom: 1px solid #b8e994;
+  
+}
+.content{
+  margin-top: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 1px 20px;
+  transition: .5s;
+  font-size: 20px;
+}
+.content:hover{
+  color: #4a69bd;
+}
+
+@media screen and ( max-width: 950px){
+  #as{
+    display: none;
+  }
+}
